@@ -1,7 +1,6 @@
 language: node_js
 node_js:
-    - "10"
-
+  - "10"
 after_script:
   - gitbook build
   - cd ./_book
@@ -11,7 +10,7 @@ after_script:
   - git add .
   - git commit -m "publish gitbook"
   - git push --force --quiet "https://${ACC_TOKEN}@${GH_REF}" master:${BRANCH}
-
 branches:
-    only:
-      - main
+  only:
+    - main
+
