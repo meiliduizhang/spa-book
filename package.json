@@ -11,10 +11,13 @@
     "url": "git+https://github.com/meiliduizhang/spa-book.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "chenkaihua",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/meiliduizhang/spa-book/issues"
   },
-  "homepage": "https://github.com/meiliduizhang/spa-book#readme"
+  "homepage": "https://github.com/meiliduizhang/spa-book#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
 }
